@@ -1,9 +1,6 @@
-======================================================================
-                               			README
-======================================================================
---------------------------------------------------------Tetris -----------------------------------------------------------------
-Name: Yarden Narkissi
--------------------------------------------------------------------------------------------------------------------------------------------
+#Tetris 
+This project was part of my studies in college. The code written in C++. 
+
 #Description: 
 This program is reproduction of the old game Tetris. in this game the player need to fill many lines as he can and by that grow
 his score, while shapes from above the grid falls down. Each level the speed of the shapes that falls, grow up and the difficult
@@ -46,5 +43,5 @@ None.
 -------------------------------------------------------------------------------------------------------------------------------------------
 #Other Comments:
 None.
-====================================================================== 
+
 
