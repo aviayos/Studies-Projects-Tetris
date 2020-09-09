@@ -2,13 +2,13 @@
 
 This project was part of my studies in college. The code written in C++. 
 
-# Description:
+## Description:
 
 This program is reproduction of the old game Tetris. in this game the player need to fill many lines as he can and by that grow
 his score, while shapes from above the grid falls down. Each level the speed of the shapes that falls, grow up and the difficult
 go up. In the game there are 7 characters: stick, square, zaw, saw, alpha, gamma and pyramid.
 
-# Classes:
+## Classes:
 
 *class "Controller": this is the main class which runs the tetris program, it holds a queue of two shapes(the current and the next).
 		and Board object. gets the users input and applies the relevant command for his objects.
@@ -24,7 +24,7 @@ go up. In the game there are 7 characters: stick, square, zaw, saw, alpha, gamma
 
 *class Saw, Zaw, Stick, Square, Pyramid, Alpha, Gamma: these classes represent the shpae chracters. 
 
-# List of file created:
+## List of file created:
 
 directory "themes":
 Pokemon.png, gameOver.png - screens of the game
@@ -32,7 +32,7 @@ pokemon.ogg - sound track of the game
 directory "fonts":
 game_font.ttf 
 
-# Main data structures:
+## Main data structures:
 
 vector of vector of unique_ptr<RectangleShape> - member in the board hold the "landed" shapes
 queue of unique_ptr<Shape>- member in the Controller, hold the current shape and the next shape
